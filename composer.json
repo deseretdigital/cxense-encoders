@@ -1,0 +1,30 @@
+{
+    "name": "deseretdigital/cxense-encoders",
+    "description": "Encoders for Cxense Data",
+    "keywords": [
+        "cxense",
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Russell Ahlstrom",
+            "email": "russell.ahlstrom@gmail.com",
+            "homepage": "http://russell.ahlstromology.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4"
+    },
+    "require-dev": {
+        "raveren/kint": "~1.0",
+        "phpunit/phpunit": "~5.1",
+        "mockery/mockery": "0.9.*",
+        "squizlabs/php_codesniffer": "~2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "CxenseEncoders\\": "src/",
+            "CxenseEncoders\\Tests\\": "tests/"
+        }
+    }
+}
